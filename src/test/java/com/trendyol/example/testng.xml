@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="example_one_suite">
+    <test name="example_one_test">
+        <classes>
+            <class name="com.trendyol.example.TestExample">
+                <methods>
+                    <include name="testOne"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
